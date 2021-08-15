@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-firebase-admin",
+  "name": "loopback4-connector-firebase-admin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huytbt/loopback-connector-firebase-admin.git"
+    "url": "git+https://github.com/huytbt/loopback4-connector-firebase-admin.git"
   },
   "keywords": [
     "connector",
@@ -22,9 +22,9 @@
   "author": "huytbt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/huytbt/loopback-connector-firebase-admin/issues"
+    "url": "https://github.com/huytbt/loopback4-connector-firebase-admin/issues"
   },
-  "homepage": "https://github.com/huytbt/loopback-connector-firebase-admin#readme",
+  "homepage": "https://github.com/huytbt/loopback4-connector-firebase-admin#readme",
   "dependencies": {
     "firebase-admin": "^9.11.0",
     "loopback-connector": "^5.0.1"

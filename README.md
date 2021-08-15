@@ -1,4 +1,4 @@
-# loopback-connector-firebase-admin
+# loopback4-connector-firebase-admin
 
 Firebase Admin connector for the LoopBack framework.
 
@@ -20,8 +20,8 @@ Then the data source generator will prompt some questions like
 
 - Enter the data-source name: **Firebase**
 - Select the connector for Firebase: **other**
-- Enter the connector's module name **loopback-connector-firebase-admin**
-- Install loopback-connector-firebase-admin (Y/n) **y**
+- Enter the connector's module name **loopback4-connector-firebase-admin**
+- Install loopback4-connector-firebase-admin (Y/n) **y**
 
 Then you should use a service account. Go to [Project Settings > Service Accounts][4] in the Google Cloud Platform Console. Generate a new private key and save the JSON file.
 
@@ -33,7 +33,7 @@ You should fill the application's datasource file which is located in `/server/d
   "projectId": "",
   "clientEmail":  "",
   "privateKey": "",
-  "databaseName": "Optional, Default: projectId"
+  "databaseURL": ""
 }
 ```
 
@@ -44,6 +44,6 @@ You should fill the application's datasource file which is located in `/server/d
 | projectId    | String           | project_id in the JSON file   | ---                          |
 | clientEmail  | String           | client_email in the JSON file | ---                          |
 | privateKey   | String           | private_key in the JSON file  | ---                          |
-| databaseName | String           | Firebase's project id         | Optional, Default: projectId |
+| databaseURL  | String           | realtime database url         | ---                          |
 
 And you can actually store those private details as an Environment variables, Check [source-configuration][6]
