@@ -20,8 +20,8 @@ Then the data source generator will prompt some questions like
 
 - Enter the data-source name: **Firebase**
 - Select the connector for Firebase: **other**
-- Enter the connector's module name **loopback-connector-realtime-database**
-- Install loopback-connector-realtime-database (Y/n) **y**
+- Enter the connector's module name **loopback-connector-firebase-admin**
+- Install loopback-connector-firebase-admin (Y/n) **y**
 
 Then you should use a service account. Go to [Project Settings > Service Accounts][4] in the Google Cloud Platform Console. Generate a new private key and save the JSON file.
 
