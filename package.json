@@ -1,6 +1,6 @@
 {
   "name": "loopback4-connector-firebase-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/huytbt/loopback4-connector-firebase-admin#readme",
   "dependencies": {
-    "firebase-admin": "^9.11.0",
+    "firebase-admin": "^10.1.0",
     "loopback-connector": "^5.0.1"
   }
 }
